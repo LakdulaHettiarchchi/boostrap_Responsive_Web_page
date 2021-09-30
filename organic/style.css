@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-image: url(./images/b4.jpg)no-repeat; */
+    /* min-height: 100vh; */
+}
+
+.navbar-brand{
+
+    font-size: 2rem;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand:hover{
+    color:black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.btn{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.main{
+background:url(./images/b4.jpg)no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-position:50% 50%;
+background-color: lightblue;
+}
+
+.main h1{
+ font-size: 4rem;
+ font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:  rgb(231, 20, 83);
+    border-radius: 60px;
+    color:white ;
+    font-weight: 700;
+   
+}
+
+.btn1:hover{
+    background-color:rgb(18, 52, 206) ;
+    transition: 5s;
+}
+
+.card:hover{
+    box-shadow: -4px -1px 43px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px -1px 43px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px -1px 43px 3px rgba(0,0,0,0.75);
+    transition: 2s;
+}
+
+.Contact{
+    background-color: rgb(39, 11, 11);
+    color:white
+}
+
+/* .shop{
+    background-color:rgb(82, 161, 214);
+}
+
+.product{
+    background-color:rgb(126, 229, 236) ;
+} */
+
+
+
